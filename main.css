@@ -1,0 +1,26 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.nav .nav-link.active {
+    background-color: #CC8105 ;
+    color: #fff;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-brand{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
