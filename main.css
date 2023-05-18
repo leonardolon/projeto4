@@ -17,10 +17,18 @@ body {
     color: #fff;
 }
 
-.navbar-brand{
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.section-title {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-.navbar-toggler {
-    background-color: #fff;
+.section-title span {
+    color: #CC8105;
+}
+
+#sobre-o-topcars {
+    background-color:aliceblue ;
 }
