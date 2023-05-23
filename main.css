@@ -25,10 +25,10 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-.section-title span {
-    color: #CC8105;
-}
-
 #sobre-o-topcars {
     background-color:aliceblue ;
+}
+
+.text-colored {
+    color: #CC8105;
 }
