@@ -6,14 +6,15 @@ body {
     background-color: black;
 }
 
-.nav .nav-link.active {
+#cabecalho .nav .nav-link.active {
     background-color: #CC8105 ;
     color: #fff;
 }
 
-.nav .nav-link,
+#cabecalho .nav .nav-link,
 .navbar-brand,
-.navbar-brand:hover {
+.navbar-brand:hover,
+.nav-catalogo .nav-link.active:hover {
     color: #fff;
 }
 
@@ -31,4 +32,13 @@ body {
 
 .text-colored {
     color: #CC8105;
+}
+
+.nav-catalogo .nav-link.active{
+        background-color: #CC8105 ;
+        color: #fff;
+}  
+
+.nav-catalogo .nav-link:hover {
+    color:#CC8105;
 }
