@@ -34,11 +34,34 @@ body {
     color: #CC8105;
 }
 
-.nav-catalogo .nav-link.active{
+#eventos img {
+    height: 200px;
+}
+
+#catalogo img {
+    height: 168px;
+}
+
+.nav-catalogo .nav-link.active,
+#fale-conosco button{
         background-color: #CC8105 ;
         color: #fff;
 }  
 
 .nav-catalogo .nav-link:hover {
     color:#CC8105;
+}
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .corousel-item img {
+        height: 280px;
+    }
 }
